@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+    <!--交互界面-->
+    <div id = 'playGround'>
+        <ul id='rats'>
+            <li><button type="button"  class = 'hitArea' id = 'rat0'>rat0</button></li>
+            <li><button type="button"  class = 'hitArea' id = 'rat1'>rat1</button></li>
+            <li><button type="button"  class = 'hitArea' id = 'rat2'>rat2</button></li>
+            <li><button type="button"  class = 'hitArea' id = 'rat3'>rat3</button></li>
+            <li><button type="button"  class = 'hitArea' id = 'rat4'>rat4</button></li>
+            <li><button type="button"  class = 'hitArea' id = 'rat5'>rat5</button></li>
+            <li><button type="button"  class = 'hitArea' id = 'rat6'>rat6</button></li>
+            <li><button type="button"  class = 'hitArea' id = 'rat7'>rat7</button></li>
+            <li><button type="button"  class = 'hitArea' id = 'rat8'>rat8</button></li>
+        </ul>
+        </div>
+    </div> 
+
+    <!--控制器-->
+    <div id = 'controlPanel'>
+        <button onclick= "start()" class = 'control'>GameStart!</button>
+        <button class = 'control'>GameStop</button>
+        <button class = 'control'>GameOver</button>
+    </div> 
+    
+
+    <div>
+            <h1>剩余时间：<span id='timer'>60</span></h1>
+        </div> 
+
+    <!--计分器-->
+    <div id = 'scoreConter'>
+        <h1>本局得分：<span id='score'>0</span></h1>
+    </div> 
+    <script src="./script.js"></script>
+</body>
+</html>
